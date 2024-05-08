@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WFY</title>
+  <style>
+    /* Общие стили */
+    body {
+      font-family: Courier, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .logo {
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .main-content {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .title h1 {
+      border: 2px solid #000000;
+      padding: 10px 20px;
+      display: inline-block;
+      font-size: 36px;
+    }
+
+    .blocks {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+    }
+
+    .block {
+      width: 30%;
+    }
+
+    .block img {
+      width: 100%;
+    }
+
+    footer {
+      background-color: #000000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-icons {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .social-icons li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    .social-icons li img {
+      width: 40px;
+      height: 40px;
+    }
+
+    /* Дополнительные стили */
+    .site-embed-container {
+      width: 60%; /* Ширина контейнера с встроенным сайтом */
+      margin: 0 auto; /* Центрирование контейнера */
+      margin-top: 50px; /* Отступ сверху */
+    }
+
+    .site-embed {
+      width: 100%; /* Ширина блока с встроенным сайтом */
+      height: 900px; /* Высота блока с встроенным сайтом */
+      border: 1px solid #ccc; /* Граница блока */
+    }
+
+    /* Стили для встроенного сайта */
+    .embedded-site {
+      width: 100%;
+      height: 100%;
+      border: none; /* Убираем границу встроенного сайта */
+    }
+
+    /* Медиа-запросы */
+    @media screen and (max-width: 768px) {
+      header {
+        padding: 10px;
+      }
+
+      .logo {
+        font-size: 20px;
+      }
+
+      nav ul li {
+        margin-right: 10px;
+      }
+
+      .main-content {
+        padding: 30px 10px;
+      }
+
+      .title h1 {
+        font-size: 24px;
+      }
+
+      .blocks {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .block {
+        width: 80%;
+        margin-bottom: 30px;
+      }
+
+      .block img {
+        width: 100%;
+      }
+
+      footer {
+        padding: 10px;
+      }
+
+      .social-icons li img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="main-button">Главная</a></li>
+        <li><a href="Untitled-1.html" class="other-button">Каталог</a></li>
+        <li><a href="Контакты.html" class="other-button">Контакты</a></li>
+        <li><a href="Клиентам.html" class="other-button">Клиентам</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main-content">
+    <div class="title">
+      <h1>WorkForYou</h1>
+    </div>
+
+    <div class="blocks">
+      <div class="block">
+        <img src="block-55.png" alt="Block 1">
+        <h2>Заголовок блока 1</h2>
+        <p>Описание блока 1</p>
+      </div>
+      <div class="block">
+        <img src="block-44.png" alt="Block 2">
+        <h2>Заголовок блока 2</h2>
+        <p>Описание блока 2</p>
+      </div>
+    </div>
+
+    <div class="site-embed-container">
+      <div class="site-embed">
+        <iframe class="embedded-site" src="C:\Users\Alex\Desktop\Site\bingo\index.html" frameborder="0"><C:\Users\Alex\Desktop\Site\bingo\index.html>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <ul class="social-icons">
+      <li><a href="#"><img src="vk.png" alt="VK"></a></li>
+      <li><a href="#"><img src="telega.png" alt="Telegram"></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
+
